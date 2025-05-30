@@ -13,7 +13,7 @@ House Price Prediction.ipynb
 
 bengaluru_house_prices.csv
 
-# How to Run the App
+#How to Run the App
 Clone this repository to your local machine
 
 Navigate to the project folder in your terminal
@@ -41,4 +41,5 @@ Click the predict button
 The app will display the predicted price in Lakhs rupees
 
 #Notes
+
 Make sure the House Price Prediction.pkl file is in the same directory as the app script when running.
