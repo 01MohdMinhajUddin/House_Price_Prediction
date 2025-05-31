@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import pickle
 
-with open("House Price Prediction.pkl","rb") as f:
+with open("House_Price_Prediction.pkl","rb") as f:
     model=pickle.load(f)
 
 location_list = model.named_steps['columntransformer'].transformers_[0][1].categories_[0]
